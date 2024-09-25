@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 using Tyuiu.KokoulinIV.Sprint1.Task0.V18.Lib;
+
 
 namespace Tyuiu.KokoulinIV.Sprint1.Task0.V18
 {
