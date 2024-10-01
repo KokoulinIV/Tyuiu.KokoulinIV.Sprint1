@@ -6,11 +6,8 @@ namespace Tyuiu.KokoulinIV.Sprint1.Task5.V5.Lib
     {
         public int Calculate(double x)
         {
-            int x1= Convert.ToInt32(x);
-            double x2 = Convert.ToDouble(x1);
-            double z = x - x2;
-            double y = Math.Abs(z) * 10;
-            int b = Convert.ToInt32(y);
+            
+            int b = (int)(Math.Floor((x- Math.Floor(x)) *10));
             return b;
 
         }
