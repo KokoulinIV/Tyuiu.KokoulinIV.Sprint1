@@ -11,7 +11,7 @@ namespace Tyuiu.KokoulinIV.Sprint1.Task7.V0.Test
             double x = 1;
             double y = -6;
             double res = ds.Calculate(x);
-            Assert.Equals(y,res);
+            Assert.AreEqual(y,res);
         }
     }
 }
